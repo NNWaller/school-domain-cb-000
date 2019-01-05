@@ -6,6 +6,9 @@ class School
   end
 end
 
+def roster
+
+end 
 
 def add_student(student_name,grade_level)
  roster[grade_level.uniq!] = []
