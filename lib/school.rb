@@ -1,14 +1,17 @@
 class School
   attr_reader :school_name
+
   ROSTER = { }
+
   def initialize(school_name)
     @school_name = school_name
   end
 end
 
 def roster
-
-end 
+  @roster = roster
+  
+end
 
 def add_student(student_name,grade_level)
  roster[grade_level.uniq!] = []
