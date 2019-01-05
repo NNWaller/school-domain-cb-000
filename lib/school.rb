@@ -5,8 +5,8 @@ end
 
 roster = { }
 
-def initialize(name)
-  @name = name
+def initialize(school_name)
+  @school_name = school_name
 end
 
 def add_student(student_name,grade_level)
