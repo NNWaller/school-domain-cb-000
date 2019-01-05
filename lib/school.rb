@@ -8,7 +8,7 @@ def initialize(name)
   @name = name
 end
 
-def add_student(name,grade_level)
+def add_student(student_name,grade_level)
  roster[grade_level.uniq!] = []
- roster[grade_level] << name.uniq!
+ roster[grade_level] << student_name.uniq!
 end
